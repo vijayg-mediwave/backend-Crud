@@ -1,7 +1,7 @@
 const express = require("express");
 const { json } = require("express");
 const Sequelize = require("sequelize");
-const PORT = 5000;
+const PORT = 5001;
 
 const sequel = new Sequelize("student", "postgres", "postgres", {
   HOST: "localhost",
