@@ -39,6 +39,7 @@ app.get("/get", async function (req, res) {
   try {
     const data = await employeeData.findAll({});
     return res.send(data);
+    console.log(data);
   } catch (error) {
     console.log(error);
   }
